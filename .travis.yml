@@ -9,7 +9,7 @@ env:
 
 install: 
  - nvm use $NODE_JS_VERSION
-
+ - npm install
 script:
  - npm start
  - true
