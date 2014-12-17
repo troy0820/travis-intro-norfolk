@@ -11,11 +11,8 @@ install:
  - nvm use $NODE_JS_VERSION
 
 script:
+ - npm start
  - true
-
-rvm:
- - '2.1.4'
- - '1.9.3'
 
 node_js:
  - "0.10"
