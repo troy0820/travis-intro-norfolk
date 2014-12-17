@@ -5,7 +5,7 @@ sudo: false
 install: 
  - npm install
 script:
- - npm start
+ - npm test
  - true
 
 node_js:
