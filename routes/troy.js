@@ -8,7 +8,8 @@ router.get('/',function(req,res) {
 
 router.get('/:id', function(req, res) { 
 	var id = req.params.id;
-	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s id page', id:id });	
+	var num = Math.floor((Math.random() * 100) + 1);
+	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s id page', num:num });	
 	}
 ); 
 module.exports = router;
