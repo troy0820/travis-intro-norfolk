@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/',function(req,res) {
-	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s Route page' });
+	var num = Math.floor((Math.random() * 100) +1);
+	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s Route page', num:num });
 	}
 );
 
