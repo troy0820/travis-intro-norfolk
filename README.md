@@ -8,5 +8,6 @@ This is a talk for travis-ci in javascript
 ```
 git clone https://github.com/troy0820/travis-intro-norfolk
 cd travis-intro-norfolk
+npm install
 npm start
 ```
