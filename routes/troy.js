@@ -15,7 +15,9 @@ router.get('/:id', function(req, res) {
 ); 
 
 router.post('/', function(req,res) {
-	res.send('This post request worked');
+	//var id = req.params.name;
+	var name = req.body.troy;
+	res.send('This worked ' + name);
 });
 module.exports = router;
 
