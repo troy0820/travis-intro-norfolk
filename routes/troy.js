@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+
+
 router.get('/',function(req,res) {
 	var num = Math.floor((Math.random() * 100) +1);
 	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s Route page', num:num });
@@ -17,7 +19,10 @@ router.get('/:id', function(req, res) {
 router.post('/', function(req,res) {
 	//var id = req.params.name;
 	var name = req.body.troy;
-	res.send('This worked ' + name);
+	//res.render('troy',{ name: 'Troy Post'});
+	console.log('This worked ' + name);
 });
+
+
 module.exports = router;
 
