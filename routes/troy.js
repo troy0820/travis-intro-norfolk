@@ -13,5 +13,9 @@ router.get('/:id', function(req, res) {
 	res.render('troy',{ name: 'Troy\'s ID page SON!!!!', title: 'Troy\'s id page', id:id, num:num });	
 	}
 ); 
+
+router.post('/', function(req,res) {
+	res.send('This post request worked');
+});
 module.exports = router;
 
