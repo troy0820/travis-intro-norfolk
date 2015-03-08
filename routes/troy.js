@@ -21,6 +21,7 @@ router.post('/', function(req,res) {
 	var name = req.body.troy;
 	//res.render('troy',{ name: 'Troy Post'});
 	console.log('This worked ' + name);
+	res.redirect('/');
 });
 
 
