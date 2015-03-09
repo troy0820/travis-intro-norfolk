@@ -2,12 +2,6 @@ var express = require('express');
 var router = express.Router();
 
 
-router.post('/', function(req,res, next) {
-	//var id = req.params.name;
-	var name = req.body.troy;
-	res.json({ name: name });
-//	res.redirect('/');
-});
 
 router.get('/',function(req,res) {
 	var num = Math.floor((Math.random() * 100) +1);
@@ -22,6 +16,11 @@ router.get('/:id', function(req, res) {
 	}
 ); 
 
+router.post('/', function(req,res, next) {
+	var name = req.body.troy;
+	res.json({ name: name });
+	
+});
 
 
 
