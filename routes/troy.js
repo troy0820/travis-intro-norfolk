@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-
+var names = [];
 
 router.get('/',function(req,res) {
 	var num = Math.floor((Math.random() * 100) +1);
