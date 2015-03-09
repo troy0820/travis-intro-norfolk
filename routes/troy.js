@@ -16,10 +16,10 @@ router.get('/:id', function(req, res) {
 	}
 ); 
 
-router.post('/', function(req,res, next) {
+router.post('/troy', function(req,res, next) {
 	var name = req.body.troy;
 //	res.json({ name: name });
-	res.render('/',{ name:name });
+	res.render('/troy',{ name:name });
 	
 });
 
