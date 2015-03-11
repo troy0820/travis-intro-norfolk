@@ -12,7 +12,7 @@ router.get('/',function(req,res) {
 router.get('/:id', function(req, res) { 
 	var id = req.params.id;
 	var num = Math.floor((Math.random() * 100) + 1);
-	res.render('troy',{ name: 'Troy\'s ID page SON!!!!', title: 'Troy\'s id page', id:id, num:num });	
+	res.render('troy',{ name: 'Troy\'s ID page SON!!!!', title: 'Troy\'s id page', id:id, num:num, names:names });	
 	}
 ); 
 
