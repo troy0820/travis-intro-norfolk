@@ -11,3 +11,5 @@ cd travis-intro-norfolk
 npm install
 npm start
 ```
+
+#This repository serves as a test bench for continuous integration and things javascript
