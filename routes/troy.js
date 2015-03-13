@@ -17,7 +17,7 @@ router.get('/:id', function(req, res) {
 ); 
 
 router.post('/', function(req,res, next) {
-	var name = req.body.troy;
+	var name = req.body.troy.toUpperCase();
 	var num = Math.floor((Math.random() * 100) +1);
 	var id = 'This is the new ID for the Posted route';
 	names.push(name);
