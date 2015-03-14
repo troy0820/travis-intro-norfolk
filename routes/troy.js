@@ -5,7 +5,7 @@ var names = [];
 
 router.get('/',function(req,res) {
 	var num = Math.floor((Math.random() * 100) +1);
-	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s Route page', num:num, names:names });
+	res.render('troy',{ name: 'Troy Connor', title: 'Troy\'s Route page',id:'Get page ID', num:num, names:names });
 	}
 );
 
