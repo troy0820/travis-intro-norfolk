@@ -21,7 +21,7 @@ router.post('/', function(req,res, next) {
 	var num = Math.floor((Math.random() * 100) +1);
 	var id = 'This is the new ID for the Posted route';
 	names.push(name);
-	res.render('troy',{ name:name, title: 'Posted from the post route', id:'New page', num:num, names:names });
+	res.render('troy',{ name:name, title: 'Posted from the post route', id: id, num:num, names:names });
 
 	
 });
