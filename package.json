@@ -23,7 +23,6 @@
   "devDependencies": {
     "grunt-cli": "^0.1.13"
   },
- "author": "Troy M. Connor"	 
+ "author": "Troy M. Connor",	 
  "License": "MIT"
 }
-
