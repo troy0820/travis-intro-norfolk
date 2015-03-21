@@ -18,10 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/troy0820/travis-intro-norfolk.git",
-    "author": "Troy M. Connor"	 
+    "url": "https://github.com/troy0820/travis-intro-norfolk.git"
  },
   "devDependencies": {
     "grunt-cli": "^0.1.13"
-  }
+  },
+ "author": "Troy M. Connor"	 
+ "License": "MIT"
 }
+
