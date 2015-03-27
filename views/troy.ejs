@@ -2,10 +2,11 @@
 <head>
 <title><%= title %></title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
 </head>
 <body>
 <div class="container">
-<h1><%= title.toUpperCase(); %></h1>
+<h1><i class='fa fa-globe'></i> <%= title.toUpperCase(); %></h1>
 <%= name %> is the name of this page.<br/>
 <%= num %> is the random number for this page.<br/>
 <blockquote><%= id %> is the id of this page</blockquote>
@@ -18,7 +19,7 @@
 		<% if(names != ""){
 			for(var i=0; i < names.length; i++) { %>
 			<li>Name: <%= names[i]%></li>
-			<% } 
+			<% }
 			}%>
 	</ul>
 </div>
