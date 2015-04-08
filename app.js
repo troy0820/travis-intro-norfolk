@@ -6,11 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var troy = require('./routes/troy');
 var routes = require('./routes/index');
-
+var compression = require('compression');
 
 
 var app = express();
-
+app.use(compression());
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
