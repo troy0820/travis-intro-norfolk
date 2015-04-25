@@ -16,7 +16,7 @@
 	</form>
 	<h2>Names: </h2>
 	<ul class='list-unstyled'>
-		<% if(names != ""){
+		<% if(names) {
 			for(var i=0; i < names.length; i++) {
 			if (i < names.length-1) { %>
 			<li><del>Name:#<%= [i+1] %><%= names[i]%></del></li>
